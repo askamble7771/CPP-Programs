@@ -26,5 +26,14 @@ int main()
 
     bool status =  doOverlap(l1, r1, l2, r2);
 
+    if(status)
+    {
+        cout<<"Rectangle overlaps."<<endl;
+    }
+    else
+    {
+        cout<<"Rectangle not overlaps"<<endl;
+    }
+
     return 0;
 }
